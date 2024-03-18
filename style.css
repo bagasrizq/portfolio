@@ -1,0 +1,92 @@
+* {
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+   border: red solid 1px; 
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0 80px;
+    
+}
+
+header {
+    width: 100%;
+    background-color: bisque;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navbar a, 
+.logo a {
+    text-decoration: none;
+    color: green;
+}
+
+.navbar a {
+    padding-left: 25px;
+}
+
+.hero {
+    background-color: rgb(0, 255, 81);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: end;
+}
+
+.container-hero {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.name {
+    background-color: blueviolet;
+    
+}
+
+.photo {
+    height: 180px;
+    width: 180px;
+    background-color: blue;
+    margin: 40px;
+    border-radius: 50%;
+}
+
+.about {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.portfolio {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.portfolio h2 {
+    font-size: 0.8rem;
+}
+
+.portfolio p {
+    font-size: 0.7rem;  ;
+}
+
+
+
+
+.tokopedia-css {
+    height: 250px;
+    width: 520px;
+    border: 1px solid salmon;
+    background-image: url(src/img/tokopedia-css.png);
+    background-size: cover;
+}
